@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+
+body{
+    background-color: rgb(92, 95, 98);
+}
+
+.maindiv{
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: space-evenly;
+
+    width: 100%;
+    /* height: 100%; */
+    /* border: 2px solid black; */
+}
+.box2{
+    background-image: url('R.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    border: 1px solid black;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+}
+.box4{
+    text-shadow: 2px 1px 20px white;
+    font-family: "Teko", sans-serif;
+    font-size: 3rem;
+    align-content: center;
+    text-align: center;
+    border: 1px solid rgb(255, 255, 255);
+    width: 20rem;
+    height: 20rem;
+    animation: animate 2s ease-in-out infinite;
+    border-radius: 50%;
+    box-shadow: 2px 1px 20px white;
+
+}
+.box5{
+    text-shadow: 2px 1px 20px white;
+    font-family: "Teko", sans-serif;
+    font-size: 3rem;
+    align-content: center;
+    text-align: center;
+    border: 1px solid rgb(255, 255, 255);
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    box-shadow: 2px 1px 20px white;
+    animation: animate1 2s ease-in-out infinite;
+}
+.box6{
+    text-shadow: 2px 1px 20px white;
+    font-family: "Teko", sans-serif;
+    font-size: 2rem;
+    align-content: center;
+    text-align: center;
+    border: 1px solid rgb(255, 255, 255);
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    box-shadow: 2px 1px 20px white;
+    animation: animate 2s ease-in-out infinite;
+}
+
+@keyframes animate {
+    0%{
+        transform: scale(1,1);
+    }
+    50%{
+        transform: scale(1.1,1.1);
+    }
+    100%{
+        transform: scale(1,1);
+    }
+    
+}
+@keyframes animate1 {
+    0%{
+        transform: scale(1.1,1.1);
+    }
+    50%{
+        transform: scale(1,1);
+    }
+    100%{
+        transform: scale(1.1,1.1);
+    }
+    
+}
